@@ -29,7 +29,7 @@ try {
     }
 	 
 
-    $response = $projector->execute("SOURCE 02");  // Change source to INPUT 1 (typically hdmi1)
+    $response = $projector->execute("SOURCE 01");  // Change source to INPUT 1 (typically hdmi1)
     echo "Source Change response: '$response'\n";
 
     $response = $projector->execute("SNO?");  // Get the serial number of the projector

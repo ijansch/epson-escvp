@@ -6,7 +6,7 @@ It allows you to **power on/off, switch sources, adjust volume**, and more.
 
 I created it because I wanted to automate lens memory operations via the network, and regular PJLink implementations do not support this command. The ESC/VP21 protocol is much more powerful and has a huge list of possible commands. 
 
-Significsnt parts of the code were written using ChatGPT. 
+Significant parts of the code were written using ChatGPT. 
 
 **Warning:**: The ESCP/VP21 protocol also contains commands to adjust settings, so use with care. Sending the wrong commands can get your projector in an unusable state. Use of this library is entirely at your own risk.
 

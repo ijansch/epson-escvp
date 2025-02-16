@@ -4,7 +4,7 @@
 EpsonESCVP is a PHP library for controlling **Epson projectors** using the **ESC/VP21** protocol over TCP/IP.  
 It allows you to **power on/off, switch sources, adjust volume**, and more.
 
-I created it because I wanted to automate lens memory operations via the network, and regular PJLink implementations to not support this command. The ESC/VP21 protocol is much more powerful and has a huge list of possible commands. 
+I created it because I wanted to automate lens memory operations via the network, and regular PJLink implementations do not support this command. The ESC/VP21 protocol is much more powerful and has a huge list of possible commands. 
 
 **Warning:**: The ESCP/VP21 protocol also contains commands to adjust settings, so use with care. Sending the wrong commands can get your projector in an unusable state. Use of this library is entirely at your own risk.
 

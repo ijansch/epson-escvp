@@ -46,6 +46,13 @@ $projector->finish();
 
 The available commands vary per projector. Epson provides an elaborate excel file with the commands for each projector. You can find it on the support page for your projector on the Epson website.
 
+Common ones that are useful:
+* PWR ON and PWR OFF - power on and off
+* POPLP xx - Load lens memory position xx (01, 02 ...)
+* MUTE ON and MUTE OFF - mute audio and screen blackout. I use this before I load a new lens memory so the lens position change isnt visible on screen.
+
+Note: to be able to turn the projector on, you need to change the projector settings to allow network communication in standby mode. 
+
 ## Contributing
 
 If you want to contribute, feel free to fork this repository and send me a pull request,
